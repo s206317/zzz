@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Digital touch</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+      <a href="#" onclick="showPage('home')">HOME</a>
+      <a href="#" onclick="showPage('more')">LÄS MER</a>
+    </nav>
+    <header class="header">
+      <div class="logo-container">
+        <p class="logo">Du har fått ett haptiskt meddelande!</p>
+        <p class="byline">ZZZzzz</p>
+      </div>
+    </header>
+
+    <section id="home" class="page">
+      <div id="myDIV">
+        <h1 onclick="triggerVibration()">ZZZzzz</h1>
+      </div>
+
+      <div class="content">
+        <div class="subtitle-container">
+          <p class="subtitle">Haptisk återkoppling – en episk rytm!</p>
+        </div>
+        <p class="styled-paragraph">
+          Hej där! Prova haptisk återkoppling genom att skanna QR-koderna. De är
+          perfekta att använda under Zoom-möten för att lägga till en extra
+          dimension i kommunikationen! Eller bara för att låta någon veta att du
+          tänker på dem.
+        </p>
+      </div>
+
+      <div class="image-container">
+        <div class="image-pair">
+          <div class="image-item">
+            <a href="HAPPY.png" download="HAPPY.png">
+              <img
+                src="HAPPY.png"
+                alt="HAPPY"
+                class="responsive-img shake-on-hover"
+                onclick="triggerVibration()"
+              />
+            </a>
+            <p class="bild">HA HA HA HA</p>
+          </div>
+          <div class="image-item">
+            <a href="HAPPY.png" download="HAPPY.png">
+              <img
+                src="HAPPY.png"
+                alt="HAPPY"
+                class="responsive-img shake-on-hover"
+                onclick="triggerVibration()"
+              />
+            </a>
+            <p class="bild">ZZZzzzzzz</p>
+          </div>
+        </div>
+        <div class="image-pair">
+          <div class="image-item">
+            <a href="HAPPY.png" download="HAPPY.png">
+              <img
+                src="HAPPY.png"
+                alt="HAPPY"
+                class="responsive-img shake-on-hover"
+                onclick="triggerVibration()"
+              />
+            </a>
+            <p class="bild">BRA DÄR!</p>
+          </div>
+          <div class="image-item">
+            <a href="HAPPY.png" download="HAPPY.png">
+              <img
+                src="HAPPY.png"
+                alt="HAPPY"
+                class="responsive-img shake-on-hover"
+                onclick="triggerVibration()"
+              />
+            </a>
+            <p class="bild">HALLÅ!</p>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <p class="subtitle">Vibrations budskap</p>
+        <p class="styled-paragraph">
+          Hahaha – kul sagt! Bra där! – beröm någon. Hallå – somna inte...
+          ZZZzzz – sååå långt budskap.
+        </p>
+      </div>
+    </section>
+
+    <section id="more" class="page" style="display: none">
+      <img src="FEEL.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Resan mellan digitala och fysiska världar medför nya utmaningar och
+          möjligheter. Haptisk feedback, som simulerar fysiska förnimmelser,
+          spelar en avgörande roll för att minska klyftan mellan dessa världar
+          genom att förbättra användarupplevelsen och minska kognitiv
+          belastning. Denna studie undersöker hur haptisk feedback påverkar
+          telepresence och betydelsen av användarnas attityder till ny teknik.
+        </p>
+      </div>
+      <img src="hybrid.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Integrationen av den fysiska och den virtuella världen i vår digitala
+          tidsålder har skapat en hybridtillvaro. Detta kan observeras i olika
+          aspekter av livet, till exempel arbete, social interaktion,
+          underhållning, utbildning och konsumentbeteende. Människor navigerar
+          nu mellan fysiska och digitala upplevelser samtidigt, vilket innebär
+          nya utmaningar för design och teknikutveckling.
+        </p>
+      </div>
+      <img src="flow.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Genom att använda flow-teorin och Technology Acceptance Model (TAM)
+          belyser studien hur engagemang, återkoppling och användaracceptans
+          påverkar användarupplevelsen i interaktionen mellan den digitala och
+          den fysiska världen.
+        </p>
+      </div>
+      <img src="prototyp.png" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          En iterativ forskningsansats, baserat på forskning genom design,
+          användes för att skapa och utvärdera en prototyp som implementerar
+          haptisk feedback.
+        </p>
+      </div>
+      <img src="HANDS.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Plattans rörelse överfördes till mini vibrationsmotorer som var
+          integrerade i ett armband som bars av den andra deltagaren. Studien
+          innebar att deltagarna placerades framför en skärm och kontaktade den
+          andra deltagaren via Zoom, med hörlurar för att eliminera
+          distraherande bakgrundsljud. Under samtalet kunde de använda digital
+          beröring för att betona vad de talade om vilket skapade en ny
+          dimension till samtalet.
+        </p>
+      </div>
+      <img src="people.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Genom att förstå hur människor uppfattar och interagerar med fysiska
+          objekt och kopplingen mellan den fysiska och digitala världen kan en
+          omfattande förståelse uppnås för fysikens natur och dess förhållande
+          till mänsklig perception. Studien har en en tvärvetenskaplig ansats
+          som kombinerar teknik och forskning om mänskligt beteende.
+        </p>
+      </div>
+      <img src="citat.gif" alt="Animated GIF" class="gif" />
+      <p></p>
+      <div class="content">
+        <p class="styled-paragraph">
+          Resultaten visar att haptisk feedback kan förbättra känslan av
+          telepresence och engagemang i digitala miljöer, samt betydelsen av
+          användarens attityd till ny teknik. Dessa fynd har implikationer för
+          design av digitala system, särskilt inom områdena interaktionsdesign,
+          människa-datorinteraktion (HCI) och datorstött kooperativt arbete
+          (CSCW). Genom att kombinera tekniska och beteendevetenskapliga
+          perspektiv, bidrar denna studie till kunskap för att utveckla
+          intuitiva och engagerande digitala upplevelser.
+        </p>
+      </div>
+    </section>
+
+    <script>
+      function showPage(pageId) {
+        document.querySelectorAll('.page').forEach((page) => {
+          page.style.display = 'none';
+        });
+        document.getElementById(pageId).style.display = 'block';
+      }
+
+      function triggerVibration() {
+        if ('vibrate' in navigator) {
+          navigator.vibrate([
+            500, 250, 500, 250, 500, 250, 500, 250, 500, 250, 500,
+          ]);
+        } else {
+          console.log('Vibration API not supported on this device.');
+        }
+      }
+
+      window.onload = function () {
+        showPage('home');
+      };
+    </script>
+
+    <footer>
+      <p class="footer">
+        * Fungerar med de flesta android telefoner och med IOS Chrome
+      </p>
+      <p class="footer">
+        Examensarbete: Magisterprogrammet i Digital Design Termin år: VT 2024
+        Maud von Platen Källqvist
+      </p>
+    </footer>
+  </body>
+</html>
