@@ -38,11 +38,11 @@
       <div class="image-container">
         <div class="image-pair">
           <div class="image-item">
-            <a href="hahaY.png" download="HAPPY.png">
+            <a href="haha.png" download="haha.png">
               <img
                 src="haha.png"
                 alt="haha"
-                class="responsive-img shake-on-hover"
+                class="responsive-img rotate-on-hover"
                 onclick="triggerVibration()"
               />
             </a>
@@ -53,11 +53,11 @@
               <img
                 src="zzz.png"
                 alt="zzz"
-                class="responsive-img shake-on-hover"
+                class="responsive-img bounce-on-hover"
                 onclick="triggerVibration()"
               />
             </a>
-            <p class="bild">ZZZzzz</p>
+            <p class="bild">ZZZzzzzzz</p>
           </div>
         </div>
         <div class="image-pair">
@@ -66,7 +66,7 @@
               <img
                 src="bra.png"
                 alt="bra"
-                class="responsive-img shake-on-hover"
+                class="responsive-img pulse-on-hover"
                 onclick="triggerVibration()"
               />
             </a>
@@ -99,12 +99,8 @@
       <p></p>
       <div class="content">
         <p class="styled-paragraph">
-          Resan mellan digitala och fysiska världar medför nya utmaningar och
-          möjligheter. Haptisk feedback, som simulerar fysiska förnimmelser,
-          spelar en avgörande roll för att minska klyftan mellan dessa världar
-          genom att förbättra användarupplevelsen och minska kognitiv
-          belastning. Denna studie undersöker hur haptisk feedback påverkar
-          telepresence och betydelsen av användarnas attityder till ny teknik.
+          Resan mellan digitala och fysiska världar medför nya utmaningar och möjligheter. Haptisk feedback, som simulerar fysiska förnimmelser, spelar en avgörande roll för att minska klyftan mellan dessa världar genom att förbättra användarupplevelsen. 
+          Denna studie undersöker hur haptisk feedback påverkar telepresence och om användarnas attityder till ny teknik påverkar upplevelsen.
         </p>
       </div>
       <img src="hybrid.gif" alt="Animated GIF" class="gif" />
@@ -189,7 +185,7 @@
       function triggerVibration() {
         if ('vibrate' in navigator) {
           navigator.vibrate([
-          500, 200, 500
+          500, 500, 500, 500, 500, 500, 500, 500, 500, 500
           ]);
         } else {
           console.log('Vibration API not supported on this device.');
