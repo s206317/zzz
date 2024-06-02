@@ -135,13 +135,13 @@ nav a:hover {
 
 .image-item {
   margin: 0 10px;
-  padding: 30px;
 }
 
 .responsive-img {
   width: 100%;
-  max-width: 260px;
+  max-width: 300px;
   height: auto;
+  padding: 30px;
 }
 
 @media (max-width: 600px) {
@@ -151,7 +151,8 @@ nav a:hover {
   }
 
   .image-item {
-    margin: 40px 0;
+    margin: 0 10px;
+    padding: 30px;
   }
 }
 
@@ -189,6 +190,52 @@ p {
   font-family: sans-serif;
   text-align: center;
   font-size: 1rem;
+}
+
+.rotate-on-hover:hover {
+  animation: rotate 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.bounce-on-hover:hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.pulse-on-hover:hover {
+  animation: pulse 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .shake-on-hover:hover {
@@ -323,6 +370,7 @@ footer {
     margin: 15px 0;
   }
 }
+
 .gif {
   width: 100%;
   max-width: 100%;
